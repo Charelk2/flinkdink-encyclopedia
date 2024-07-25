@@ -5,7 +5,11 @@ const slides = [
     headerTitle: "Onion",
     title: "Ui",
     description:
+<<<<<<< HEAD
       "1. Tlfuric compounds in onions cause is to cry when we chop them. 2. The largest onion ever grown is a whopping 4.5kg",
+=======
+      "mpounds in onions cause is to cry when we chop them. 2. The largest onion ever grown is a whopping 4.5kg",
+>>>>>>> caa1d8c0b1970fa0f21991039395db21f6c8d280
     imageUrl: "/Groente/a6d42707-5424-46d0-b811-cf51cca12f5a.jpg",
   },
   {
