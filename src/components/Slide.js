@@ -1,5 +1,5 @@
 import React from "react";
-import slides from "./slides";
+import slides from "../data/slides";
 
 const SlideShow = () => {
   return (
