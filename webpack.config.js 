@@ -1,0 +1,23 @@
+// webpack.config.js
+
+module.exports = {
+  // Other configurations...
+  module: {
+    rules: [
+      {
+        test: /\.(jpg|jpeg|png)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[hash].[ext]',
+              outputPath: 'images/',
+              publicPath: 'images/',
+            },
+          },
+        ],
+      },
+      // Other rules...
+    ],
+  },
+};
