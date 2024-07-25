@@ -1,15 +1,19 @@
-// src/components/Slide.js
 import React from "react";
+import slides from "./slides";
 
-function Slide({ slide }) {
+const SlideShow = () => {
   return (
-    <div className="slide">
-      <h2>{slide.headerTitle}</h2>
-      <img src={slide.imageUrl} alt={slide.title} />
-      <h2>{slide.title}</h2> {/* Title below the image */}
-      <p>{slide.description}</p>
+    <div>
+      {slides.map((slide, index) => (
+        <div key={index}>
+          <h1>{slide.headerTitle}</h1>
+          <h2>{slide.title}</h2>
+          <img src={slide.imageUrl} alt={slide.title} />
+          <p>{slide.description}</p>
+        </div>
+      ))}
     </div>
   );
-}
+};
 
-export default Slide;
+export default SlideShow;
