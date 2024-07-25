@@ -10,7 +10,7 @@ const slides = [
 =======
       "mpounds in onions cause is to cry when we chop them. 2. The largest onion ever grown is a whopping 4.5kg",
 >>>>>>> caa1d8c0b1970fa0f21991039395db21f6c8d280
-    imageUrl: "/Groente/a6d42707-5424-46d0-b811-cf51cca12f5a.jpg",
+    imageUrl: "/public/Groente/a6d42707-5424-46d0-b811-cf51cca12f5a.jpg",
   },
   {
     term: 1,
