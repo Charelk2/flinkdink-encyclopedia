@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/flinkdink-encyclopedia/static/css/main.f9fc8fd0.css",
-    "main.js": "/flinkdink-encyclopedia/static/js/main.1f8ae48d.js",
+    "main.js": "/flinkdink-encyclopedia/static/js/main.3f948ae8.js",
     "index.html": "/flinkdink-encyclopedia/index.html",
     "main.f9fc8fd0.css.map": "/flinkdink-encyclopedia/static/css/main.f9fc8fd0.css.map",
-    "main.1f8ae48d.js.map": "/flinkdink-encyclopedia/static/js/main.1f8ae48d.js.map"
+    "main.3f948ae8.js.map": "/flinkdink-encyclopedia/static/js/main.3f948ae8.js.map"
   },
   "entrypoints": [
     "static/css/main.f9fc8fd0.css",
-    "static/js/main.1f8ae48d.js"
+    "static/js/main.3f948ae8.js"
   ]
 }
